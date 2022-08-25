@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1250px) {
+    .allcards-projects {
+        flex-direction: column;
+    }
+
+    .cards-projects {
+        width: auto;
+    }
+
+    .section-description .photo {
+        display: none;
+    }
+
+    .section-description {
+        padding: 30px;
+    }
+
+    .my-projects-info {
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .content {    
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .my-infos {
+        grid-area: my-infos;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        order: 1;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .second-paragraph ul {
+        flex-wrap: wrap;
+    }
+
+    .photo {
+        width: 128px;
+        height: auto;
+        background-color: #6450aa;
+        border-radius: 100%;
+        border: 2px solid #00ff00;
+        margin-bottom: 0px;
+    }
+}
